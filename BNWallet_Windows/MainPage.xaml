@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="BNWallet_Windows.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BNWallet_Windows"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="1344" Height="772" MaxWidth="1380" MaxHeight="772" MinWidth="1380" MinHeight="772">
+
+    <Grid HorizontalAlignment="Left" Height="768" MaxWidth="1366" MaxHeight="768" MinWidth="1366" MinHeight="768" ManipulationMode="Scale" Padding="0" RequestedTheme="Dark" ScrollViewer.VerticalScrollBarVisibility="Disabled" VerticalAlignment="Top" Width="1366" >
+
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/Blue_Form_1366x768.jpg"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Center" Height="130" VerticalAlignment="Center" Width="383" Source="Assets/styleLogo-ebab309b32ed28fd1783dbc1c91df7c2361cd306.png" RenderTransformOrigin="0.491,0.472" Margin="492,257,491,381"/>
+        <PasswordBox x:Name="LoginPassword" HorizontalAlignment="Center" Width="265" PlaceholderText="Password" Height="32" VerticalAlignment="Center" VerticalContentAlignment="Top" Margin="551,427,550,309" InputScope="Password" TabIndex="4" />
+        <Button x:Name="BtnLogin" Content="Login" HorizontalAlignment="Center" Margin="582,469,572,263" VerticalAlignment="Center" RenderTransformOrigin="-0.44,0.3" Height="36" Width="212" Click="Login_Button_Click" TabIndex="1"/>
+        <TextBox x:Name="LoginUsername" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" Width="265" PlaceholderText="Username" Height="32" VerticalAlignment="Center" VerticalContentAlignment="Top" Margin="551,387,550,349" TabIndex="1"/>
+        <Button x:Name="BtnRegister" Content="Register" HorizontalAlignment="Center" Margin="582,510,572,222" VerticalAlignment="Center" RenderTransformOrigin="-0.44,0.3" Height="36" Width="212" Click="Register_Button_Click" TabIndex="4"/>
+    </Grid>
+</Page>

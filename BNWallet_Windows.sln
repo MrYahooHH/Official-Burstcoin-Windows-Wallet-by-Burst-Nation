@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BNWallet_Windows", "BNWallet_Windows\BNWallet_Windows.csproj", "{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Official Burstcoin wallet by Burst Nation setup", "Official Burstcoin wallet by Burst Nation setup\Official Burstcoin wallet by Burst Nation setup.vdproj", "{B7579B9D-6E8F-47FC-B374-EC791FD4554C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Debug|ARM.Build.0 = Debug|ARM
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Debug|ARM.Deploy.0 = Debug|ARM
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Debug|x64.ActiveCfg = Debug|x64
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Debug|x64.Build.0 = Debug|x64
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Debug|x64.Deploy.0 = Debug|x64
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Debug|x86.ActiveCfg = Debug|x86
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Debug|x86.Build.0 = Debug|x86
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Debug|x86.Deploy.0 = Debug|x86
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Release|ARM.ActiveCfg = Release|ARM
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Release|ARM.Build.0 = Release|ARM
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Release|ARM.Deploy.0 = Release|ARM
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Release|x64.ActiveCfg = Release|x64
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Release|x64.Build.0 = Release|x64
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Release|x64.Deploy.0 = Release|x64
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Release|x86.ActiveCfg = Release|x86
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Release|x86.Build.0 = Release|x86
+		{7F591C2A-222D-4AE7-908D-5D0FE20E00FA}.Release|x86.Deploy.0 = Release|x86
+		{B7579B9D-6E8F-47FC-B374-EC791FD4554C}.Debug|ARM.ActiveCfg = Debug
+		{B7579B9D-6E8F-47FC-B374-EC791FD4554C}.Debug|x64.ActiveCfg = Debug
+		{B7579B9D-6E8F-47FC-B374-EC791FD4554C}.Debug|x86.ActiveCfg = Debug
+		{B7579B9D-6E8F-47FC-B374-EC791FD4554C}.Release|ARM.ActiveCfg = Release
+		{B7579B9D-6E8F-47FC-B374-EC791FD4554C}.Release|x64.ActiveCfg = Release
+		{B7579B9D-6E8F-47FC-B374-EC791FD4554C}.Release|x86.ActiveCfg = Release
+		{B7579B9D-6E8F-47FC-B374-EC791FD4554C}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83217FC9-9F1D-4488-957E-84417E95C7AA}
+	EndGlobalSection
+EndGlobal
